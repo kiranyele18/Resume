@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <span style="position: fixed;top: 0%;right: 5rem;">
+        <nav>
+          <ul style="display: flex;flex-direction: row;white-space: 2px; list-style: none; list-style-type: none; ">
+            <li> <a href="index.html"> Home <a/> </li>
+            <li> <a href="about.html"> About <a/> </li>
+            <li> <a href="contact.html"> Contact <a/> </li>
+          </ul>
+        </nav>
+      </span>
+    <h1>Contact Me </h1>
+
+    <!-- <p> Email: <hidden> krnyele@gmail.com </hidden></p> -->
+    <!-- <p> Mobile Number: <hidden>  +917709682727</hidden> </p> -->
+
+    <form action="mailto:krnyele@gmail.com" method="post" enctype="text/plain">
+        <label for="POST-name">Your Name: </label>
+        <input type="text" name="name" id="nametext">
+        <br>
+        <label> Email: </label>
+        <input type="email" name="email" id="emailtext">
+        <br>
+        <label type="text" name ="message"> Your Message </label>
+        <br>
+        <textarea name="messagearea" rows="5" cols="50">Your Message Please!!!</textarea>
+        <br>
+        <input type="submit" value="Save">
+    </form>
+    
+</body>
+</html>
