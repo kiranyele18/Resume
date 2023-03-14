@@ -1,6 +1,9 @@
 body{
-    background-color: #EAF6F6;
-    /* text-align: center; it displays all text to center present in body section */
+    margin: 0;
+    background-color: #ccf3f3;
+    /* font-family: sans-serif; */
+
+    text-align: center; it displays all text to center present in body section
 }
 
 hr{
@@ -15,6 +18,9 @@ hr{
 }
 h1{
     color: #66bfbf;
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 100;
 }
 
 h3{
@@ -26,8 +32,31 @@ table{
     align-items: center;
 }
 #headingh1name{
-    font-family:cursive;
+    font-family: 'Sacramento', cursive;
 }
+
+.top-container{
+    text-align: center;
+    background-color: #98f0e04f;
+}
+.middle-container{
+    
+}
+.bottom-container{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: beige;
+    padding: 0;
+    bottom: 0;
+    
+}
+/* .footer{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    margin-bottom: auto;
+} */
 
 /* #headingh1name:hover{
     color: rgb(93, 228, 214);
