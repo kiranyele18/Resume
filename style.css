@@ -6,6 +6,22 @@ body{
     text-align: center; it displays all text to center present in body section
 }
 
+.hovertext:hover{
+    color: rgb(255, 0, 0);
+}
+
+.hovertextpgm:hover{
+    color: rgb(7, 107, 236);
+}
+
+.hovertextweb:hover{
+    color: green;
+}
+
+.hovertextfreelance:hover{
+    color: rgb(243, 159, 33);
+}
+
 hr{
     /* background-color: white; */
     border-style:  none;
@@ -32,10 +48,14 @@ table{
     align-items: center;
 }
 #headingh1name{
+    font-size: 562.5%;
     font-family: 'Sacramento', cursive;
 }
 
 .top-container{
+    text-align: center; 
+}
+.top-container-para{
     text-align: center;
     background-color: #98f0e04f;
 }
